@@ -1,0 +1,42 @@
+{
+  "_fv": 34,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "void"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Hardenedcobble"
+    },
+    "fluidBlock": {
+      "value": "Blocks.CAVE_AIR"
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:IndustialDiamondBlock"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:HydrogenParticle"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Testdimension Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "two_hundred_fifty_six_core_cpu",
+    "portalTexture": "glass",
+    "enablePortal": true
+  }
+}

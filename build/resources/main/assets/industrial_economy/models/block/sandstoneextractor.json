@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "industrial_economy:blocks/extractor_sandstone",
+    "particle": "industrial_economy:blocks/extractor_sandstone"
+  },
+  "render_type": "solid"
+}

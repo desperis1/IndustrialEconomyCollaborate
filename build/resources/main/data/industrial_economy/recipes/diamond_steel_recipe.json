@@ -1,0 +1,27 @@
+{
+  "group": "diamondsteelhoerecipe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "1": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "3": {
+      "item": "industrial_economy:diamond_steelblock"
+    },
+    "5": {
+      "item": "industrial_economy:diamond_steelblock"
+    }
+  },
+  "result": {
+    "item": "industrial_economy:diamond_steel_h_oe",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "industrial_economy:test",
+  "features": "industrial_economy:crystal",
+  "step": "underground_ores"
+}

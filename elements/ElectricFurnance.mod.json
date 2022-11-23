@@ -1,0 +1,179 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Electric Furnance",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Electric Furnance",
+          "x": 142,
+          "y": 43
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16751002,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 57
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -3368449,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 255,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Working",
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "GeneratorWorkingLabel"
+          },
+          "name": "Working",
+          "x": 206,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "250 MW",
+          "color": {
+            "value": -16764007,
+            "falpha": 0.0
+          },
+          "name": "250 MW",
+          "x": 257,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mamguienergy.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GeneratorWorkingLabel"
+          },
+          "name": "mamguienergy.png",
+          "x": 184,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "MK2",
+          "color": {
+            "value": -15762043,
+            "falpha": 0.0
+          },
+          "name": "MK2",
+          "x": 235,
+          "y": 43
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire.png",
+          "use1Xscale": false,
+          "name": "fire.png",
+          "x": 205,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "industrial_diamond_block.png",
+          "use1Xscale": false,
+          "name": "industrial_diamond_block.png",
+          "x": 168,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamond_imitation.png",
+          "use1Xscale": false,
+          "name": "diamond_imitation.png",
+          "x": 239,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "+",
+          "x": 193,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "=",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "=",
+          "x": 228,
+          "y": 81
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

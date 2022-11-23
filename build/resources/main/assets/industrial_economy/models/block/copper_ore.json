@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "industrial_economy:blocks/copper_ore",
+    "particle": "industrial_economy:blocks/copper_ore"
+  },
+  "render_type": "solid"
+}

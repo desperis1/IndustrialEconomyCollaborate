@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "industrial_economy:caterium_ore",
+    "industrial_economy:caterium_block",
+    "industrial_economy:copper_ore",
+    "industrial_economy:copper_block",
+    "industrial_economy:constructorblock"
+  ]
+}

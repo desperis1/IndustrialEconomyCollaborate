@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "TAB",
+    "keyBindingName": "Plasma Shoot",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "PlasmashootkeybindOnKeyPressed"
+    }
+  }
+}

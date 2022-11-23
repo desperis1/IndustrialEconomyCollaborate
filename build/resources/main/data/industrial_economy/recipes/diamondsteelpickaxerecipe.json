@@ -1,0 +1,30 @@
+{
+  "group": "diamondsteel_pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "1": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "2": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "4": {
+      "item": "industrial_economy:diamond_steelblock"
+    },
+    "7": {
+      "item": "industrial_economy:diamond_steelblock"
+    }
+  },
+  "result": {
+    "item": "industrial_economy:diamond_steelpickaxe",
+    "count": 1
+  }
+}

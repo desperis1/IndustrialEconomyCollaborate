@@ -1,0 +1,306 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 233,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Foundry",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Foundry",
+          "x": 216,
+          "y": 40
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 232,
+          "y": 55
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 282,
+          "y": 55
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 258,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Working",
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "GeneratorWorkingLabel"
+          },
+          "name": "Working",
+          "x": 264,
+          "y": 100
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:RecipePower>",
+          "color": {
+            "value": -16763956,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:RecipePower>",
+          "x": 266,
+          "y": 41
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "mamguienergy.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GeneratorWorkingLabel"
+          },
+          "name": "mamguienergy.png",
+          "x": 241,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "+",
+          "x": 133,
+          "y": 46
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "=",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "=",
+          "x": 169,
+          "y": 46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ironingot.png",
+          "use1Xscale": false,
+          "name": "ironingot.png",
+          "x": 112,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "6",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "6",
+          "x": 105,
+          "y": 46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "coal.png",
+          "use1Xscale": false,
+          "name": "coal.png",
+          "x": 149,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "3",
+          "x": 143,
+          "y": 46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steelingot.png",
+          "use1Xscale": false,
+          "name": "steelingot.png",
+          "x": 183,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1",
+          "x": 176,
+          "y": 46
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamondsteelingot.png",
+          "use1Xscale": false,
+          "name": "diamondsteelingot.png",
+          "x": 183,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "industrial.png",
+          "use1Xscale": false,
+          "name": "industrial.png",
+          "x": 149,
+          "y": 60
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "=",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "=",
+          "x": 169,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1",
+          "x": 176,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "steelingot.png",
+          "use1Xscale": false,
+          "name": "steelingot.png",
+          "x": 115,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "16",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "16",
+          "x": 103,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "+",
+          "x": 134,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4",
+          "x": 143,
+          "y": 63
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

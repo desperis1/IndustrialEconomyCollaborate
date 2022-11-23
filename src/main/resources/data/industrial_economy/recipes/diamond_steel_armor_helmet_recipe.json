@@ -1,0 +1,32 @@
+{
+  "group": "diamondsteelarmorhelmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "1": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "2": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "3": {
+      "item": "industrial_economy:diamondsteelplate"
+    },
+    "4": {
+      "item": "industrial_economy:control_unit"
+    },
+    "5": {
+      "item": "industrial_economy:diamondsteelplate"
+    }
+  },
+  "result": {
+    "item": "industrial_economy:diamond_steel_armor_helmet",
+    "count": 1
+  }
+}

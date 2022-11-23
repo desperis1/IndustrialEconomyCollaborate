@@ -1,0 +1,63 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 256,
+    "height": 187,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 14,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Auto Sell",
+          "onClick": {
+            "name": "AutoFilterbutton"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Auto Sell",
+          "x": 168,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Player Level: <VAR:integer:player_minnig_level>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Player Level: <VAR:integer:player_minnig_level>",
+          "x": 130,
+          "y": 121
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "3x3 Area",
+          "onClick": {
+            "name": "Threebythreeareabuttonpress"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "3x3 Area",
+          "x": 177,
+          "y": 58
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
