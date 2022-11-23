@@ -6,3 +6,4 @@ build.gradle
 .project
 gradlew
 gradlew.bat
+.mcreator/workspaceBackups
