@@ -8681,6 +8681,34 @@
       "locked_code": false,
       "registry_name": "turbo_fuel_mk_4_fuel",
       "path": "~/Items/TurboFuels"
+    },
+    {
+      "name": "TestsyncproceduredZ",
+      "type": "procedure",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testsyncprocedured_z",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
