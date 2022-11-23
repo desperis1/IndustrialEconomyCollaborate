@@ -334,6 +334,16 @@ public class IndustrialEconomyModItems {
 	public static final RegistryObject<Item> DIAMOND_STEEL_NUGGET = REGISTRY.register("diamond_steel_nugget", () -> new DiamondSteelNuggetItem());
 	public static final RegistryObject<Item> TURBO_FUEL_MK_4 = REGISTRY.register("turbo_fuel_mk_4", () -> new TurboFuelMK4Item());
 	public static final RegistryObject<Item> TESTDIMENSION = REGISTRY.register("testdimension", () -> new TestdimensionItem());
+	public static final RegistryObject<Item> GENERATORMK_4 = block(IndustrialEconomyModBlocks.GENERATORMK_4,
+			IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MK_2 = block(IndustrialEconomyModBlocks.MK_2, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MK_5 = block(IndustrialEconomyModBlocks.MK_5, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MK_6 = block(IndustrialEconomyModBlocks.MK_6, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MK_7 = block(IndustrialEconomyModBlocks.MK_7, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MK_8 = block(IndustrialEconomyModBlocks.MK_8, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MK_9 = block(IndustrialEconomyModBlocks.MK_9, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MAJCOVBLOK = block(IndustrialEconomyModBlocks.MAJCOVBLOK, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
+	public static final RegistryObject<Item> MK_10 = block(IndustrialEconomyModBlocks.MK_10, IndustrialEconomyModTabs.TAB_PROJECT_MEGA);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
