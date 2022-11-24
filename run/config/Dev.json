@@ -21,7 +21,7 @@
   "mam64CoreCPU": false,
   "mam128CoreCPU": false,
   "mam256CoreCPU": false,
-  "isOnline": false,
+  "isOnline": true,
   "hubX": -123.0,
   "hubY": 78.0,
   "hubZ": 87.0
